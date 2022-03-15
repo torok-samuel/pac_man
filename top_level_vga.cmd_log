@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-2 top_level_vga.ngc top_level_vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-2 top_level_vga.ngc top_level_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_level_vga_map.ncd top_level_vga.ngd top_level_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_level_vga_map.ncd top_level_vga.ncd top_level_vga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_level_vga.twx top_level_vga.ncd -o top_level_vga.twr top_level_vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f top_level_vga.ut top_level_vga.ncd 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-2 top_level_vga.ngc top_level_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_level_vga_map.ncd top_level_vga.ngd top_level_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_level_vga_map.ncd top_level_vga.ncd top_level_vga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_level_vga.twx top_level_vga.ncd -o top_level_vga.twr top_level_vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f top_level_vga.ut top_level_vga.ncd 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-2 top_level_vga.ngc top_level_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_level_vga_map.ncd top_level_vga.ngd top_level_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_level_vga_map.ncd top_level_vga.ncd top_level_vga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_level_vga.twx top_level_vga.ncd -o top_level_vga.twr top_level_vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f top_level_vga.ut top_level_vga.ncd 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+xst -intstyle ise -ifn "C:/pac_man/top_level_vga.xst" -ofn "C:/pac_man/top_level_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-2 top_level_vga.ngc top_level_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_level_vga_map.ncd top_level_vga.ngd top_level_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_level_vga_map.ncd top_level_vga.ncd top_level_vga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_level_vga.twx top_level_vga.ncd -o top_level_vga.twr top_level_vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f top_level_vga.ut top_level_vga.ncd 

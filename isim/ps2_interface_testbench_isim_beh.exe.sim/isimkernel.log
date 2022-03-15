@@ -1,0 +1,31 @@
+Command line:
+   ps2_interface_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49613
+
+Tue Dec 17 14:40:15 2019
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5159.89 Meg
+
+ Total Signals          : 23
+ Total Nets             : 27
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 148
+Total Line Count : 80
+Total Line Count : 80
+Total Line Count : 80
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4688.03 Meg
+
+Tue Dec 17 19:51:22 2019
+

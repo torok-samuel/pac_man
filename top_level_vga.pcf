@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 12 23:05:43 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P55" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "P137" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "P138" LEVEL 1;
+COMP "g<0>" LOCATE = SITE "P139" LEVEL 1;
+COMP "g<1>" LOCATE = SITE "P140" LEVEL 1;
+COMP "r<0>" LOCATE = SITE "P141" LEVEL 1;
+COMP "r<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "cpld_load_o" LOCATE = SITE "P80" LEVEL 1;
+COMP "cpld_miso_i" LOCATE = SITE "P79" LEVEL 1;
+COMP "cpld_mosi_o" LOCATE = SITE "P81" LEVEL 1;
+COMP "cpld_rstn_o" LOCATE = SITE "P74" LEVEL 1;
+COMP "ps2_clk" LOCATE = SITE "P132" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P133" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "P67" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P134" LEVEL 1;
+COMP "cpld_clk_o" LOCATE = SITE "P78" LEVEL 1;
+COMP "ps2_data" LOCATE = SITE "P131" LEVEL 1;
+COMP "cpld_jtagen_o" LOCATE = SITE "P82" LEVEL 1;
+SCHEMATIC END;
+

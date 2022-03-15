@@ -1,0 +1,6 @@
+verilog work "vga_interface.v"
+verilog work "ram.v"
+verilog work "ps2_interface.v"
+verilog work "game_logic.v"
+verilog work "cpld_interface.v"
+verilog work "top_level_vga.v"

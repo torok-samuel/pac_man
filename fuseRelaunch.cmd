@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/pac_man/ps2_interface_testbench_isim_beh.exe" -prj "C:/pac_man/ps2_interface_testbench_beh.prj" "work.ps2_interface_testbench" "work.glbl" 

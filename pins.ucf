@@ -1,0 +1,28 @@
+
+//vga
+net r[1] loc = p142;	//5
+net r[0] loc = p141;	//6
+net g[1] loc = p140;	//7
+net g[0] loc = p139;	//8
+net b[1] loc = p138;	//9
+net b[0] loc = p137;	//10
+net vsync loc = p134;	//11
+net hsync loc = p133;	//12
+net clk loc = p55;
+net rst_n loc = p67 | PULLUP;
+
+
+
+//cpld
+net cpld_clk_o loc = p78;
+net cpld_rstn_o loc = p74;
+net cpld_load_o loc = p80;
+net cpld_mosi_o loc  = p81;
+net cpld_jtagen_o loc = p82;
+net cpld_miso_i loc = p79;
+
+
+//ps2
+net ps2_clk loc = p132;
+net ps2_data loc = p131;
+//net ack loc = p66; //BTN1
